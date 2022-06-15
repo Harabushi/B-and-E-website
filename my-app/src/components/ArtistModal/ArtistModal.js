@@ -1,6 +1,6 @@
 import React from "react";
 
-export function Projects({ currentCategory }) {
+export function ArtistModal({ currentCategory }) {
   
   return (
     <section>

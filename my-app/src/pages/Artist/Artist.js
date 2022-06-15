@@ -1,12 +1,10 @@
 import React from "react";
 
-function Artist({ currentCategory }) {
+export function Artist({ currentCategory }) {
   
   return (
     <section>
 
     </section>
   );
-}
-
-export default Artist;
+};
