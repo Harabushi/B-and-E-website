@@ -15,10 +15,13 @@
     "url": "git+https://github.com/Harabushi/B-and-E-website.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Harabushi",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Harabushi/B-and-E-website/issues"
   },
-  "homepage": "https://github.com/Harabushi/B-and-E-website#readme"
+  "homepage": "https://github.com/Harabushi/B-and-E-website#readme",
+  "dependencies": {
+    "concurrently": "^7.3.0"
+  }
 }
