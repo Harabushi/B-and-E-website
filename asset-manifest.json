@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/github.io/B-and-E-website/static/css/main.c6c33e88.css",
-    "main.js": "/github.io/B-and-E-website/static/js/main.dfc0b427.js",
-    "static/js/787.31a36a90.chunk.js": "/github.io/B-and-E-website/static/js/787.31a36a90.chunk.js",
-    "static/media/bill-nye-art.png": "/github.io/B-and-E-website/static/media/bill-nye-art.017e03fe85bfc5a0fd83.png",
-    "static/media/poster-art.jpg": "/github.io/B-and-E-website/static/media/poster-art.d5527507cafea57059fb.jpg",
-    "static/media/logo-white-on-black.jpg": "/github.io/B-and-E-website/static/media/logo-white-on-black.ebd46eb9bbaef2088ead.jpg",
-    "static/media/logo-white-on-black-no-border.png": "/github.io/B-and-E-website/static/media/logo-white-on-black-no-border.46ff8ab0563b53e7a88e.png",
-    "service-worker.js": "/github.io/B-and-E-website/service-worker.js",
-    "index.html": "/github.io/B-and-E-website/index.html",
-    "main.c6c33e88.css.map": "/github.io/B-and-E-website/static/css/main.c6c33e88.css.map",
-    "main.dfc0b427.js.map": "/github.io/B-and-E-website/static/js/main.dfc0b427.js.map",
-    "787.31a36a90.chunk.js.map": "/github.io/B-and-E-website/static/js/787.31a36a90.chunk.js.map"
+    "main.css": "/B-and-E-website/static/css/main.c6c33e88.css",
+    "main.js": "/B-and-E-website/static/js/main.e73c8750.js",
+    "static/js/787.31a36a90.chunk.js": "/B-and-E-website/static/js/787.31a36a90.chunk.js",
+    "static/media/bill-nye-art.png": "/B-and-E-website/static/media/bill-nye-art.017e03fe85bfc5a0fd83.png",
+    "static/media/poster-art.jpg": "/B-and-E-website/static/media/poster-art.d5527507cafea57059fb.jpg",
+    "static/media/logo-white-on-black.jpg": "/B-and-E-website/static/media/logo-white-on-black.ebd46eb9bbaef2088ead.jpg",
+    "static/media/logo-white-on-black-no-border.png": "/B-and-E-website/static/media/logo-white-on-black-no-border.46ff8ab0563b53e7a88e.png",
+    "service-worker.js": "/B-and-E-website/service-worker.js",
+    "index.html": "/B-and-E-website/index.html",
+    "main.c6c33e88.css.map": "/B-and-E-website/static/css/main.c6c33e88.css.map",
+    "main.e73c8750.js.map": "/B-and-E-website/static/js/main.e73c8750.js.map",
+    "787.31a36a90.chunk.js.map": "/B-and-E-website/static/js/787.31a36a90.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c6c33e88.css",
-    "static/js/main.dfc0b427.js"
+    "static/js/main.e73c8750.js"
   ]
 }
