@@ -1,0 +1,32 @@
+{
+  "name": "b-and-e-website",
+  "version": "1.0.0",
+  "description": "A website for our good friends at B&E",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
+    "install": "cd server && npm i && cd ../client && npm i",
+    "seed": "cd server && npm run seed",
+    "build": "cd client && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Harabushi/B-and-E-website.git"
+  },
+  "keywords": [],
+  "author": "Harabushi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Harabushi/B-and-E-website/issues"
+  },
+  "homepage": "https://Harabushi/github.io/B-and-E-website",
+  "dependencies": {
+    "concurrently": "^7.3.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}

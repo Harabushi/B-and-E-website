@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c6c33e88.css",
+    "main.js": "/static/js/main.56630d26.js",
+    "static/js/787.31a36a90.chunk.js": "/static/js/787.31a36a90.chunk.js",
+    "static/media/bill-nye-art.png": "/static/media/bill-nye-art.017e03fe85bfc5a0fd83.png",
+    "static/media/poster-art.jpg": "/static/media/poster-art.d5527507cafea57059fb.jpg",
+    "static/media/logo-white-on-black.jpg": "/static/media/logo-white-on-black.ebd46eb9bbaef2088ead.jpg",
+    "static/media/logo-white-on-black-no-border.png": "/static/media/logo-white-on-black-no-border.46ff8ab0563b53e7a88e.png",
+    "service-worker.js": "/service-worker.js",
+    "index.html": "/index.html",
+    "main.c6c33e88.css.map": "/static/css/main.c6c33e88.css.map",
+    "main.56630d26.js.map": "/static/js/main.56630d26.js.map",
+    "787.31a36a90.chunk.js.map": "/static/js/787.31a36a90.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c6c33e88.css",
+    "static/js/main.56630d26.js"
+  ]
+}

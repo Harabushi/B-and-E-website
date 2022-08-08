@@ -1,0 +1,50 @@
+header img {
+  max-height: 100px;
+}
+
+/* might add a screen query to reduce size/padding on mobile */
+.navbar-nav > li{
+  padding:0 45px;
+  margin: 0 45px;
+}
+
+.sidebar-affix {
+  z-index: 9999;
+  background-color: black;
+  position: fixed;
+  right: 0%;
+  top:135px;
+  width:275px;
+  padding: 0 10px;
+}
+
+.interlude {
+  font-style: italic;
+}
+
+.card {
+  align-items: center;
+  flex-direction: row;
+  width: 26rem;
+}
+
+.card img {
+  width: 30%;
+  height: 45%;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: calc(0.25rem - 1px);
+}
+
+footer img {
+  max-height: 50px;
+  padding-right: 50px;
+}
+
+/* 
+.btn-circle{
+  width: 40px;
+  height: 40px;
+  padding: 6px 0px;
+  border-radius: 20px;
+  text-align: center;
+} */
