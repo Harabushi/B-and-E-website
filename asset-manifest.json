@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/github.io/B-and-E-website/static/css/main.c6c33e88.css",
-    "main.js": "/github.io/B-and-E-website/static/js/main.90b24bcb.js",
+    "main.js": "/github.io/B-and-E-website/static/js/main.dfc0b427.js",
     "static/js/787.31a36a90.chunk.js": "/github.io/B-and-E-website/static/js/787.31a36a90.chunk.js",
     "static/media/bill-nye-art.png": "/github.io/B-and-E-website/static/media/bill-nye-art.017e03fe85bfc5a0fd83.png",
     "static/media/poster-art.jpg": "/github.io/B-and-E-website/static/media/poster-art.d5527507cafea57059fb.jpg",
@@ -10,11 +10,11 @@
     "service-worker.js": "/github.io/B-and-E-website/service-worker.js",
     "index.html": "/github.io/B-and-E-website/index.html",
     "main.c6c33e88.css.map": "/github.io/B-and-E-website/static/css/main.c6c33e88.css.map",
-    "main.90b24bcb.js.map": "/github.io/B-and-E-website/static/js/main.90b24bcb.js.map",
+    "main.dfc0b427.js.map": "/github.io/B-and-E-website/static/js/main.dfc0b427.js.map",
     "787.31a36a90.chunk.js.map": "/github.io/B-and-E-website/static/js/787.31a36a90.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c6c33e88.css",
-    "static/js/main.90b24bcb.js"
+    "static/js/main.dfc0b427.js"
   ]
 }
