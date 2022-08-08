@@ -4,6 +4,8 @@
   "description": "A website for our good friends at B&E",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
     "install": "cd server && npm i && cd ../client && npm i",
@@ -20,8 +22,11 @@
   "bugs": {
     "url": "https://github.com/Harabushi/B-and-E-website/issues"
   },
-  "homepage": "https://github.com/Harabushi/B-and-E-website#readme",
+  "homepage": "https://Harabushi/github.io/B-and-E-website",
   "dependencies": {
     "concurrently": "^7.3.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }

@@ -7,17 +7,17 @@ A website for promotion of the local music production group know as B & E. The s
 https://harabushi.github.io/B-and-E-website/ 
 
 
-## Table of Contents   
+## Table of Contents
 * [Overview](#overview)
 * [Features](#features)
-* [Usage](#Usage)   
+* [Usage](#Usage)
 * [Preview](#preview)
 * [Made By](#made-by)
-* [Questions](#Questions)  
+* [Questions](#Questions)
 
 ## Overview
 
-The B & E app is made with React.js, and uses MongoDB and GraphQL to set up the backend to hold artist and project information. 
+The B & E app is made with React.js front-end, and uses MongoDB and GraphQL to set up the back-end to hold artist and project information. 
 
 ## Features
 
