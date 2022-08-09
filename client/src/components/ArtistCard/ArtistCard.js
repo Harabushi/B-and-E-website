@@ -4,8 +4,8 @@ export function ArtistCard({ currentCategory }) {
   
   return (
     // artist cards
-    <section className="container">
-      <h3 className="align-self-center text-center">Artist links</h3>
+    <section className="container my-5">
+      <h3 className="align-self-center text-center">Artists</h3>
       <div className="card-deck row justify-content-between">
         <div className="card col-6 col-md-3 mt-4">
           <img className="card-img-start img-fluid" src={require("../../assets/images/logo-white-on-black.jpg")} alt="artist thumbnail" />

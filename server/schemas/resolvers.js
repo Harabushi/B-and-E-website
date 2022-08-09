@@ -1,6 +1,6 @@
 import { Artist, Project } from '../models';
 
-export const resolvers = {
+const resolvers = {
   Query: {
     // find all artists
     artists: async (parent, args, context) => {
@@ -29,4 +29,6 @@ export const resolvers = {
       return project;
     }
   }
-}
+};
+
+export default resolvers;

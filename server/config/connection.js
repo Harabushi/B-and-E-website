@@ -1,8 +1,8 @@
-import { connect, connection } from "mongoose";
+import mongoose from "mongoose";
 
-connect(process.env.MONGODB_URI || "mongodb://localhost/b-and-e", {
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/b-and-e", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
 
-export default connection;
+export default mongoose.connection;

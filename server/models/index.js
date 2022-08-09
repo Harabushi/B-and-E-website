@@ -1,5 +1,5 @@
 import Artist from './Artist';
-import Projects from './Project';
+import Project from './Project';
 
 
-export { Artist, Projects };
+export { Artist, Project };

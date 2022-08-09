@@ -1,5 +1,5 @@
 import React from 'react';
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export function Nav({ currentCategory }) {
   
@@ -17,16 +17,16 @@ export function Nav({ currentCategory }) {
         <div className="navbar-collapse collapse justify-content-center" id="navbarColor01">
           <ul className="navbar-nav">
             <li className="nav-item display-6">
-              <a className="nav-link" href="/">Home</a>
+              <Link className="nav-link" to="/">Home</Link>
             </li>
             <li className="nav-item display-6">
-              <a className="nav-link" href="/artist">Artists</a>
+              <Link className="nav-link" to="/artist">Artists</Link>
             </li>
             <li className="nav-item display-6">
-              <a className="nav-link" href="/booking">Booking</a>
+              <Link className="nav-link" to="/booking">Booking</Link>
             </li>
             <li className="nav-item display-6">
-              <a className="nav-link" href="/projects">Projects</a>
+              <Link className="nav-link" to="/projects">Projects</Link>
             </li>
           </ul>
         </div>

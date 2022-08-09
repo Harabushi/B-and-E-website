@@ -1,7 +1,6 @@
-import { model, Schema } from 'mongoose';
-import { projectSchema } from './Project';
+import mongoose from 'mongoose';
 
-const artistSchema = new Schema({
+const artistSchema = new mongoose.Schema({
   name: {
     type: String,
     required: true
@@ -22,7 +21,14 @@ const artistSchema = new Schema({
       type: String
     },
   ],
-  projects: [projectSchema]
+  projects: [
+    {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: 'Project'
+    }
+  ]
 });
 
-export const Artist = model('Artist', artistSchema);
+const Artist = mongoose.model('Artist', artistSchema);
+
+export default Artist;

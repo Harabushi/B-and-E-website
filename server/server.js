@@ -1,9 +1,9 @@
-const express = require("express");
-const { ApolloServer } = require("apollo-server-express");
-const path = require("path");
+import express, { urlencoded, json } from "express";
+import { ApolloServer } from "apollo-server-express";
+import { join } from "path";
 
-const { typeDefs, resolvers } = require('./schemas');
-const db = require("./config/connection").default;
+import { typeDefs, resolvers } from './schemas/index.js';
+import db from "./config/connection.js";
 const app = express();
 const PORT = process.env.PORT || 3001;
 
@@ -20,16 +20,16 @@ const startServer = async () => {
 
 startServer();
 
-app.use(express.urlencoded({ extended: false }));
-app.use(express.json());
+app.use(urlencoded({ extended: false }));
+app.use(json());
 
 // if we're in production, serve client/build as static assets
 if (process.env.NODE_ENV === "production") {
-  app.use(express.static(path.join(__dirname, "../client/build")));
+  app.use(express.static(join(__dirname, "../client/build")));
 }
 
 app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "../client/build/index.html"));
+  res.sendFile(join(__dirname, "../client/build/index.html"));
 });
 
 db.once("open", () => {
